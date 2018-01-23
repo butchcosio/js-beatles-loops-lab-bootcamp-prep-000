@@ -17,13 +17,12 @@ let l = facts.length
   return john
 }
 
-function iLoveTheBeatles(love){
+function iLoveTheBeatles(n){
   var empty = []
-  let n = 7
   do {empty.push ('I love the Beatles!');n+=1
 }
 while (n < 15);
 return empty
-love.splice (0,6)
-return love
+empty.splice (0,6)
+return empty
 }
